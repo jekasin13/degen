@@ -1,0 +1,73 @@
+* { 
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+   
+}
+
+
+.my-input {
+    width: 800px;
+    padding: 5px 15px;
+    margin: 15px 0 ;
+    border: 2px solid rgb(78, 0, 94);
+    border-radius: 5px;
+}
+
+
+.info-box {
+    border-radius: 5px;
+    border: 2px solid rgb(78, 0, 94) ;
+    width: 65%;
+    margin: 0  25px;
+}
+
+
+.info-field  {
+    display: flex;
+    margin: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+    /* border: 2px   solid rgb(78, 0, 94) ; */
+
+    
+
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-container {
+    display: flex;
+}
+
+.opensea-info {
+    border-radius: 5px;
+    border: 2px solid rgb(78, 0, 94) ;
+    width: 45%;
+    margin: 0  25px;
+    
+}
+.image {
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    width: 150;
+    height: 150;
+    box-sizing: border-box;
+}
+
+.img-name {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+
+.main-container {
+    width: 80%;
+    margin: auto;
+}
